@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Diwali Celebration</title>
+  
+  <link rel="stylesheet" href="./css/swiper.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide1 blur">
+        <h1>Happy Diwali</h1>
+        <p>" Wishing You a very Happy Diwali. "</p>
+      </div>
+      <div class="swiper-slide slide2 blur">
+        <h1>" May the Divine Light of Diwali Spread into your Life Peace, Prosperity, Happiness and Good Health. "</h1>
+      </div>
+      <div class="swiper-slide slide3 blur">
+        <h1>" फूल की शुरुआत कली से होती है.. जिन्दगी की शुरुआत प्यार से होती है..प्यार की शुरुआत अपनों से होती है.. अपनों की शुरुआत आपसे होती है॥ "</h1>
+      </div>
+      <div class="swiper-slide slide4 blur">
+        <h1>" Very Happy wishesh from my (Gagan Gaur) and from my family side. "</h1>
+      </div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+      <div class="swiper-button-next swiper-button-white"></div>
+      <div class="swiper-button-prev swiper-button-white"></div>
+    
+  </div>
+
+  <script src="./js/swiper.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container',{
+      effect:'cube',
+      greabCursor:true,
+      cubeEffect:{
+        shadow:false,
+        slideShadows:false,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      navigation:{
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      }
+    })
+  </script>
+</body>
+</html>
